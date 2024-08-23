@@ -1,0 +1,130 @@
+body {
+    background-color: #292929;
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    color: #a23bca;
+
+    margin-bottom: 32px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 32px;
+}
+
+
+.wrp-active {
+    background-color: #f0f0f0;
+    width: min-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding: 16px;
+    border-radius: 12px;
+
+    box-shadow: 4px 4px 12px #000000;
+
+}
+.wrp-heading {
+    width: 448px;
+    height: 160px;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    
+
+    gap: 16px;
+}
+.wrp-cover {
+    display: flex;
+    align-items: center;
+
+    width: 140px;
+    height: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    overflow: hidden;
+    img {    
+        height: 100%;
+
+        
+    }
+}
+.wrp-content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow: auto;
+    
+    .wrp-title {
+        display: flex;
+        flex-direction: column;
+    }
+    span {
+        color: #5f2077;
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-size: 16pt;
+    }
+    .stars {
+        color: #5f2077;
+    }
+    p {
+        color: #72328b;
+        font-size: 12pt;
+        margin: 0;
+        overflow: auto;
+    }
+}
+.wrp-trailher {
+
+    iframe {
+        border-radius: 8px;
+        width: 448px;
+        height: 252px;
+    }
+}
+
+
+footer {
+    margin-top: 32px;
+    padding: 16px;
+
+    color: #f0f0f0;
+
+    a {
+        text-decoration: none;
+        color: #a23bca;
+    }
+}
